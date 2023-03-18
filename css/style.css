@@ -1,0 +1,52 @@
+.loading,
+.search-loading {
+  position: absolute;
+  z-index: 9999;
+  inset: 0;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadIcon {
+  color: grey;
+  font-size: 100px;
+}
+
+.side-nav {
+  z-index: 99;
+  background-color: black;
+  left: 0px;
+}
+
+.side-nav .nav-tab li {
+  top: 400;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav-tab {
+  color: #fff;
+}
+
+.logo {
+  width: 50px;
+}
+
+.meal-layer {
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.meal:hover .meal-layer {
+  top: 0;
+}
